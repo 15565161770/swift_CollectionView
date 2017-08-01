@@ -19,6 +19,7 @@ class ProgrameCell: UICollectionViewCell {
         name.text = model.game_name!
     }
     
+    // 初始化控件
     override init(frame: CGRect) {
         super.init(frame: frame)
         // 图片
@@ -26,10 +27,11 @@ class ProgrameCell: UICollectionViewCell {
         self.contentView.addSubview(img)
         // 名称
         name = UILabel.init(frame: .init(x: 0, y: img.bottom + 8, width: img.width, height: 21))
+        // 文字居中显示
         name.textAlignment = .center
         name.font = UIFont.systemFont(ofSize: 14)
         self.contentView.addSubview(name)
-        
+        // 下面一条黄线
         let line = UIView.init(frame: .init(x: 0, y: name.bottom, width: img.width, height: 1))
         line.backgroundColor = UIColor.orange
         self.contentView.addSubview(line)

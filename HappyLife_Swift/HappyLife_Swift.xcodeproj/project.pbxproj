@@ -25,6 +25,13 @@
 		18EEA9A61F300B9300755AA4 /* ProgrameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA9A51F300B9300755AA4 /* ProgrameModel.swift */; };
 		18EEA9AC1F300F2B00755AA4 /* LiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA9AB1F300F2B00755AA4 /* LiveModel.swift */; };
 		18EEA9AE1F300F8F00755AA4 /* LiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA9AD1F300F8F00755AA4 /* LiveCell.swift */; };
+		18EEA9B31F30186B00755AA4 /* RecommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA9B21F30186B00755AA4 /* RecommendModel.swift */; };
+		18EEA9B51F30188F00755AA4 /* HeadChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA9B41F30188F00755AA4 /* HeadChannelModel.swift */; };
+		18EEA9B71F3018B400755AA4 /* DetailChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA9B61F3018B400755AA4 /* DetailChannelModel.swift */; };
+		18EEA9BC1F30192A00755AA4 /* DetailCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA9B81F30192A00755AA4 /* DetailCollectionCell.swift */; };
+		18EEA9BD1F30192A00755AA4 /* HeadScrollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA9B91F30192A00755AA4 /* HeadScrollCell.swift */; };
+		18EEA9BE1F30192A00755AA4 /* HeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA9BA1F30192A00755AA4 /* HeadView.swift */; };
+		18EEA9BF1F30192A00755AA4 /* ShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA9BB1F30192A00755AA4 /* ShowCell.swift */; };
 		44A29099AFE1BE2A913806B6 /* Pods_HappyLife_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6424EA8C9003C8420A15A6 /* Pods_HappyLife_Swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +57,13 @@
 		18EEA9A51F300B9300755AA4 /* ProgrameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgrameModel.swift; path = HappyLife_Swift/Mian/ProgrameModel.swift; sourceTree = SOURCE_ROOT; };
 		18EEA9AB1F300F2B00755AA4 /* LiveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveModel.swift; sourceTree = "<group>"; };
 		18EEA9AD1F300F8F00755AA4 /* LiveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCell.swift; sourceTree = "<group>"; };
+		18EEA9B21F30186B00755AA4 /* RecommendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendModel.swift; sourceTree = "<group>"; };
+		18EEA9B41F30188F00755AA4 /* HeadChannelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadChannelModel.swift; sourceTree = "<group>"; };
+		18EEA9B61F3018B400755AA4 /* DetailChannelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailChannelModel.swift; sourceTree = "<group>"; };
+		18EEA9B81F30192A00755AA4 /* DetailCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCollectionCell.swift; sourceTree = "<group>"; };
+		18EEA9B91F30192A00755AA4 /* HeadScrollCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadScrollCell.swift; sourceTree = "<group>"; };
+		18EEA9BA1F30192A00755AA4 /* HeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadView.swift; sourceTree = "<group>"; };
+		18EEA9BB1F30192A00755AA4 /* ShowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowCell.swift; sourceTree = "<group>"; };
 		9D6424EA8C9003C8420A15A6 /* Pods_HappyLife_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyLife_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC2843080B5B89609C700A0 /* Pods-HappyLife_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyLife_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyLife_Swift/Pods-HappyLife_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		A491EB330B7888E356236A0C /* Pods-HappyLife_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyLife_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyLife_Swift/Pods-HappyLife_Swift.release.xcconfig"; sourceTree = "<group>"; };
@@ -159,8 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				18307AA91F2F0970003EE1BB /* Controller */,
+				18EEA9B11F30185F00755AA4 /* Model */,
 				18307AA81F2F0970003EE1BB /* View */,
-				18307AA71F2F0970003EE1BB /* Model */,
 				18307AA61F2F0970003EE1BB /* Other */,
 			);
 			path = NEWS;
@@ -173,17 +187,14 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
-		18307AA71F2F0970003EE1BB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		18307AA81F2F0970003EE1BB /* View */ = {
 			isa = PBXGroup;
 			children = (
 				18307ABE1F2F13C0003EE1BB /* News_Cell.swift */,
+				18EEA9B81F30192A00755AA4 /* DetailCollectionCell.swift */,
+				18EEA9B91F30192A00755AA4 /* HeadScrollCell.swift */,
+				18EEA9BA1F30192A00755AA4 /* HeadView.swift */,
+				18EEA9BB1F30192A00755AA4 /* ShowCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,6 +289,16 @@
 				18EEA9AD1F300F8F00755AA4 /* LiveCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		18EEA9B11F30185F00755AA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18EEA9B21F30186B00755AA4 /* RecommendModel.swift */,
+				18EEA9B41F30188F00755AA4 /* HeadChannelModel.swift */,
+				18EEA9B61F3018B400755AA4 /* DetailChannelModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		2D1FFE01D1E0C84BD1564691 /* Frameworks */ = {
@@ -424,16 +445,23 @@
 				18EEA99D1F300AF700755AA4 /* UIView+Ext.swift in Sources */,
 				18EEA9A41F300B6D00755AA4 /* ProgrameCell.swift in Sources */,
 				18307AC11F2F1AC4003EE1BB /* NavigationController.swift in Sources */,
+				18EEA9BD1F30192A00755AA4 /* HeadScrollCell.swift in Sources */,
+				18EEA9B51F30188F00755AA4 /* HeadChannelModel.swift in Sources */,
 				18307AC31F2F21AD003EE1BB /* RootViewController.swift in Sources */,
 				18EEA9A61F300B9300755AA4 /* ProgrameModel.swift in Sources */,
 				18307AB71F2F09EB003EE1BB /* NEWS_VC.swift in Sources */,
 				18EEA9AE1F300F8F00755AA4 /* LiveCell.swift in Sources */,
+				18EEA9BC1F30192A00755AA4 /* DetailCollectionCell.swift in Sources */,
 				18307AA01F2F07E5003EE1BB /* MainController.swift in Sources */,
 				18307AB91F2F0A01003EE1BB /* COMIC_VC.swift in Sources */,
+				18EEA9B31F30186B00755AA4 /* RecommendModel.swift in Sources */,
+				18EEA9B71F3018B400755AA4 /* DetailChannelModel.swift in Sources */,
 				18EEA9AC1F300F2B00755AA4 /* LiveModel.swift in Sources */,
+				18EEA9BE1F30192A00755AA4 /* HeadView.swift in Sources */,
 				18307ABF1F2F13C0003EE1BB /* News_Cell.swift in Sources */,
 				18307ABB1F2F0A15003EE1BB /* HEALTH_VC.swift in Sources */,
 				18307A8D1F2F073A003EE1BB /* AppDelegate.swift in Sources */,
+				18EEA9BF1F30192A00755AA4 /* ShowCell.swift in Sources */,
 				18EEA99C1F300AF700755AA4 /* NetRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,7 +590,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cloudscreen.HappyLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/apple/Desktop/HappyLife_Swift/HappyLife_Swift/Mian/HappyLife-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/apple/Desktop/swift_CollectionView/HappyLife_Swift/HappyLife_Swift/Mian/HappyLife-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -577,7 +605,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cloudscreen.HappyLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/apple/Desktop/HappyLife_Swift/HappyLife_Swift/Mian/HappyLife-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/apple/Desktop/swift_CollectionView/HappyLife_Swift/HappyLife_Swift/Mian/HappyLife-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

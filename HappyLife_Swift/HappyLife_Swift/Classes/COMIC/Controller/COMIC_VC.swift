@@ -12,6 +12,7 @@ class COMIC_VC: RootViewController {
     
     var programeArray = Array<Any>()
     
+    // 集合视图的懒加载
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout.init()
         layout.itemSize = .init(width: (UIScreen.main.bounds.size.width-40)/3, height: (UIScreen.main.bounds.size.width-40)/3+30)
