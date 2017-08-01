@@ -9,9 +9,11 @@
 import UIKit
 
 class ProgrameCell: UICollectionViewCell {
+    // 定义自定义cell控件
     var img = UIImageView()
     var name = UILabel()
     
+    // model从控制器传过来
     func sendModel(model : ProgrameModel)  {
         img.sd_setImage(with: URL.init(string: model.game_icon!), placeholderImage: UIImage.init(named: "logo"))
         name.text = model.game_name!
